@@ -12,10 +12,12 @@ All tasks has been submitted to ExecutorService in one shot, and all started in 
 ![StartMainSequentialJobFailed.png](images/StartMainSequentialJobFailed.png)
 
 
-## Ordered task execution, future.isDone checks completion of first task then next task is added by executor.submit(task).
+## Ordered task execution, all task has been added to Linkedlist and with iteration of list , future.isDone checks completion of first task then next task is added by executor.submit(task).
+
 ![StartMainLinkedListOrderedlJob.png](images/StartMainLinkedListOrderedlJob.png)
 
-## Ordered task execution, all task has been added to Linkedlist and with iteration of list , future.isDone checks completion of first task then next task is added by executor.submit(task).
+
+## Ordered task execution, future.isDone checks completion of first task then next task is added by executor.submit(task).
 
 ![StartMainSequentialJob.png](images/StartMainSequentialJob.png)
 
